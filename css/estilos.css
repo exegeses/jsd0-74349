@@ -19,6 +19,7 @@ a{
 }
 h1{
     font-weight: 300;
+    margin-top: 32px;
 }
 #frase{
     font-size: 32px;
@@ -36,6 +37,7 @@ h1{
     background-color: #b7b7b7;
     border-radius: 8px;
     color: #fff;
+    transition: 500ms;
 }
 nav{
     margin: 32px 0px;

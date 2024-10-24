@@ -6,11 +6,15 @@
 let respuesta = prompt('¿qué seleccionado ganó la copa del mundo Qatar 2022?');
 
 // condicional
+let im = 'error';
 if( respuesta.toLowerCase() == 'argentina' ){
     // bloque de código a ejecutar si la condición es true
-    frase.innerText = '¡Correcto!';
+    im = 'ok';
+    //frase.innerText = '¡Correcto!';
 }
-else{
+//frase.innerHTML = '<img src="imgs/'+im+'.png">';
+frase.innerHTML = `<img src="imgs/${im}.png">`;
+/*else{
     // bloque de código a ejecutar si la condición es false
-    frase.innerText = '¡Incorrecto!';
-}
+    //frase.innerText = '¡Incorrecto!';
+}*/
