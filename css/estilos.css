@@ -53,3 +53,22 @@ nav{
         background-color: hsl(300, 50%, 30%);
         box-shadow: 0px 0px 8px hsla(160, 52%, 76%, 50%);
     }   
+
+#rotador{
+    width: 460px;
+    padding: 12px;
+    margin: auto;
+    background-color: hsl(300, 50%, 4%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #rotador img{
+        filter: invert();
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #rotador img:hover{
+        transform: scale(1.2);
+    }
