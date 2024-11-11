@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0e0e0;
+    color: #313131;
+    font-size: 1.3em;
+    font-family: "Geist", sans-serif;
+}
+h1{
+    margin-bottom: 32px;
+}
+main{
+    width: 640px;
+    margin: 40px auto;
+}
+.card{
+    width: 300px;
+    padding: 32px;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px hsla(0, 100%, 0%, 25%);
+    text-align: center;
+}
+    .avatar{
+        display: block;
+        margin: auto;
+    }
+    .name{
+        display: block;
+        margin-top: 16px;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+
